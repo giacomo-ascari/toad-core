@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32H750VBT6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=100
+Version=3.1
+Released=2018-09-24 12:12:48
+Downloaded=2026-10-23 21:25:18
+3D=Y

@@ -1,0 +1,19 @@
+.TAD5242IRGER :1 ;Audio D/A Converter ICs Hardware-control stereo audio DAC with 120dB dynamic range, and headphone and line driver
+TAD5242IRGER
+*STM IC
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14 15=15 16=16 17=17 18=18 19=19 20=20 21=21 22=22 23=23 24=24 25=25 26=A1 27=A2 28=A3 29=A4
+*PLB 1="DREG" 2="BCLK" 3="FSYNC" 4="MD6" 5="DIN" 6="IOVDD" 7="MD1" 8="MD2" 9="MD3" 10="MD4" 11="GPO" 12="MD5" 13="MD0" 14="VSSA_1" 15="VSSA_2" 16="VSSA_3" 17="VSSA_4" 18="VSSA_5" 19="OUT1M" 20="OUT1P" 21="OUT2P" 22="OUT2M" 23="AVDD" 24="VREF" 25="EP" 26="VSS_1" 27="VSS_2" 28="VSS_3" 29="VSS_4"
+*MXP 29
+*DFN TAD5242IRGER
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TAD5242IRGER)
+~!Mouser Part Number (595-TAD5242IRGER)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TAD5242IRGER?qs=%252BXxaIXUDbq07iiss%252B1zA7A%3D%3D)
+~!Arrow Part Number (TAD5242IRGER)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tad5242irger/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tad5242.pdf?ts=1736249226355&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTAD5242)
+~!Height (1mm)
+~!3D_Model (TAD5242IRGER)
+TAD5242IRGER
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 

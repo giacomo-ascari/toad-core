@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TAD5242IRGER
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=29
+Version=1.3
+Released=2025-01-08 11:00:45
+Downloaded=2026-10-23 21:30:07
+3D=Y

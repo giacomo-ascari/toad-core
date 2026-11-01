@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS63070RNMT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-25-14:28:35)
+    (mountForm default
+        (footprintRef "TPS630701RNMR")
+        (spec "System")
+    )
+)

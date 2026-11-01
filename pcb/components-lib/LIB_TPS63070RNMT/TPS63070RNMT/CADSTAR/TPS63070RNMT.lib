@@ -1,0 +1,18 @@
+.TPS63070RNMT :1 ;Voltage Regulators - Switching Regulators Wide Input Voltage Buck-Boost Convter
+TPS630701RNMR
+*STM IC
+*NGS
+*PLB 1="PS/SYNC" 2="PG" 3="VAUX" 4="GND" 5="FB" 6="FB2" 7="VOUT_1" 8="VOUT_2" 9="L2" 10="PGND" 11="L1" 12="VIN_1" 13="VIN_2" 14="EN" 15="VSEL"
+*MXP 17
+*DFN TPS63070RNMT
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS63070RNMT)
+~!Mouser Part Number (595-TPS63070RNMT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS63070RNMT?qs=LuYMPh7GGMTfpyXCkymsfw%3D%3D)
+~!Arrow Part Number (TPS63070RNMT)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps63070rnmt/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tps63070)
+~!Height (-)
+~!3D_Model (TPS63070RNMT)
+TPS63070RNMT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 

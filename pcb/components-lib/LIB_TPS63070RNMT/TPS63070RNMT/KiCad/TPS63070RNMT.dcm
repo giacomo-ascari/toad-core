@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS63070RNMT
+D Voltage Regulators - Switching Regulators Wide Input Voltage Buck-Boost Convter
+K
+F http://www.ti.com/lit/gpn/tps63070
+$ENDCMP
+#
+#End Doc Library

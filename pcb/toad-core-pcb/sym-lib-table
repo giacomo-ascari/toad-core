@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "stm32h750vbt6") (type "KiCad") (uri "${KIPRJMOD}/../components-lib/LIB_STM32H750VBT6/STM32H750VBT6/KiCad") (options "") (descr ""))
+	(lib (name "tad5242irger") (type "KiCad") (uri "${KIPRJMOD}/../components-lib/LIB_TAD5242IRGER/TAD5242IRGER/KiCad") (options "") (descr ""))
+	(lib (name "ld2980abm50") (type "KiCad") (uri "${KIPRJMOD}/../components-lib/LIB_LD2980ABM50TR/LD2980ABM50TR/KiCad") (options "") (descr ""))
+	(lib (name "tps63070") (type "KiCad") (uri "${KIPRJMOD}/../components-lib/LIB_TPS63070RNMT/TPS63070RNMT/KiCad") (options "") (descr ""))
+)

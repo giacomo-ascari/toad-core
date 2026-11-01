@@ -1,0 +1,18 @@
+.LD2980ABM50TR :1 ;LDO Regulator 5V 0.05A SOT23-5 LD2980ABM50TR, Low Dropout Voltage Regulator, 0.05A, 5 V +/-0.5%, -3  16 Vin, 5-Pin SOT-23
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="GND" 3="INHIBIT" 4="NC" 5="VOUT"
+*MXP 5
+*DFN LD2980ABM50TR
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LD2980ABM50TR)
+~!Mouser Part Number (511-LD2980ABM50)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD2980ABM50TR?qs=VGvuQyhlB505oN%2FiomLdRQ%3D%3D)
+~!Arrow Part Number (LD2980ABM50TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ld2980abm50tr/stmicroelectronics?utm_currency=USD&region=europe)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/ld2980.pdf)
+~!Height (1.45mm)
+~!3D_Model (LD2980ABM50TR)
+LD2980ABM50TR
+1.1!I 2.1!P 3.1!I 4.1!U 5.1!Y 

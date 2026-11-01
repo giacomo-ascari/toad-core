@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TAD5242IRGER"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-01-08-11:00:45)
+    (mountForm default
+        (footprintRef "TAD5242IRGER")
+        (spec "System")
+    )
+)
