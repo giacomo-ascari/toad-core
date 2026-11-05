@@ -1328,6 +1328,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2539,6 +2679,12 @@
 		(uuid "47049bc3-46c4-49ff-b556-a05109319197")
 	)
 	(junction
+		(at 101.6 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4899a134-db52-4cc9-a1df-ceaa1c1625b9")
+	)
+	(junction
 		(at 252.73 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2671,6 +2817,12 @@
 		(uuid "b8bacede-aeba-4581-8330-bdc3f949cdc3")
 	)
 	(junction
+		(at 106.68 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd63189b-9df6-4608-b8c2-8cade745139d")
+	)
+	(junction
 		(at 116.84 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2681,6 +2833,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc08dcdc-3181-495a-9fe5-9ee51270fb38")
+	)
+	(junction
+		(at 116.84 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4a8ffb0-2194-40dd-98ef-c55968c676c7")
+	)
+	(junction
+		(at 111.76 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd478dd3-df8d-4ff6-8ac3-d3ba85e34235")
 	)
 	(no_connect
 		(at 48.26 74.93)
@@ -2706,6 +2870,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 92.71) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099ea924-1507-484c-bc7f-b58cecf4de19")
+	)
+	(wire
+		(pts
 			(xy 104.14 71.12) (xy 116.84 71.12)
 		)
 		(stroke
@@ -2713,6 +2887,16 @@
 			(type default)
 		)
 		(uuid "0ae2d01a-90a4-4a0f-bd4a-95628222ea8d")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb207d2-92f7-4a82-bab2-1c692c09e5f1")
 	)
 	(wire
 		(pts
@@ -2773,6 +2957,16 @@
 			(type default)
 		)
 		(uuid "1846deb8-be7f-4d4f-9a40-c4272e28b41f")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f96b79-dff2-4de6-836d-44699c284e3a")
 	)
 	(wire
 		(pts
@@ -3046,6 +3240,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c29ba9d-b21b-453b-8fd7-bb56e8cc49bd")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6634b8-7e99-48c9-a8cc-f0e56c5e5e07")
+	)
+	(wire
+		(pts
 			(xy 26.67 55.88) (xy 38.1 55.88)
 		)
 		(stroke
@@ -3063,6 +3277,16 @@
 			(type default)
 		)
 		(uuid "61ec925b-54e6-4688-953d-f9b258ce21e7")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6401e21b-a8da-428e-9f90-6661e4543bbd")
 	)
 	(wire
 		(pts
@@ -3103,6 +3327,16 @@
 			(type default)
 		)
 		(uuid "673d1c87-6190-48f0-87df-3e85a96698c0")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 111.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68518210-929d-4803-9dc2-491e9ef22ca2")
 	)
 	(wire
 		(pts
@@ -3296,6 +3530,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 87.63) (xy 78.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e823e38-413b-418b-b688-f417bbf029b6")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92350cf8-8ab4-4383-8bc8-2de569c2a5f9")
+	)
+	(wire
+		(pts
 			(xy 187.96 119.38) (xy 187.96 127)
 		)
 		(stroke
@@ -3386,6 +3640,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 90.17) (xy 106.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed50a96-947e-40ff-9f00-aef8c181026b")
+	)
+	(wire
+		(pts
 			(xy 190.5 104.14) (xy 190.5 111.76)
 		)
 		(stroke
@@ -3393,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "afa8ebab-cc35-4b6c-885f-a468aa8e09e7")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bbc1ab-07fa-4a09-82df-615916bf3af1")
 	)
 	(wire
 		(pts
@@ -3593,6 +3867,16 @@
 			(type default)
 		)
 		(uuid "e1c776c7-f719-43a8-9b73-3325ee9a456b")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ffa2fd-7f99-4bed-85d1-8db20404beec")
 	)
 	(wire
 		(pts
@@ -3834,7 +4118,7 @@
 	)
 	(global_label "CODEC_BOUT+"
 		(shape output)
-		(at 78.74 90.17 0)
+		(at 123.19 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3844,7 +4128,7 @@
 		)
 		(uuid "20c1e1c6-a320-4ee7-b4fa-19f054223b8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.4533 90.17 0)
+			(at 139.9033 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +4238,7 @@
 	)
 	(global_label "CODEC_BOUT-"
 		(shape output)
-		(at 78.74 92.71 0)
+		(at 123.19 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3964,7 +4248,7 @@
 		)
 		(uuid "45086e2f-f545-4e00-8f06-f7b0fd28e6f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.4533 92.71 0)
+			(at 139.9033 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4050,7 +4334,7 @@
 	)
 	(global_label "CODEC_AOUT-"
 		(shape output)
-		(at 78.74 87.63 0)
+		(at 123.19 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4060,7 +4344,7 @@
 		)
 		(uuid "645f1c3b-2199-4e26-9d57-d909acd6c215")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2719 87.63 0)
+			(at 139.7219 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4430,7 @@
 	)
 	(global_label "CODEC_AOUT+"
 		(shape output)
-		(at 78.74 85.09 0)
+		(at 123.19 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4156,7 +4440,7 @@
 		)
 		(uuid "7fc62d08-92a6-426b-b5df-60d5ef302296")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2719 85.09 0)
+			(at 139.7219 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,7 +4800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07cbefad-d5a6-4df3-b3bc-fe669c9a6c42")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR082"
 			(at 119.38 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -4576,7 +4860,85 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR077")
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08afb5fd-953e-4694-b0d0-64e897792aa2")
+		(property "Reference" "#PWR079"
+			(at 106.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "229cab2d-a546-4466-bb0d-860938f8b624")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -4841,7 +5203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2578884b-4747-444b-b0e1-d9de43076937")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR083"
 			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4901,7 +5263,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR078")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -4999,7 +5361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "375509e2-dfb3-410d-8a3c-87c97834a971")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR091"
 			(at 242.57 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5059,7 +5421,167 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR086")
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37cc00e6-8c11-4e85-a009-f45eba17bb84")
+		(property "Reference" "#PWR081"
+			(at 116.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ef112ae-3e85-4ffb-84a4-a5c136325ca1")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf9db5a-3812-4fe6-8998-a25cc71ae43c")
+		(property "Reference" "R18"
+			(at 104.14 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 104.14 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 103.378 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fbfa8793-bde9-4403-a703-2a19434a4c10")
+		)
+		(pin "1"
+			(uuid "172ac987-32d4-41d0-806f-a4929b3cafca")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5077,7 +5599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d55cce3-da30-4a88-97c6-32c42f2ca983")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 40.64 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5137,7 +5659,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5237,7 +5759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4592d889-8869-4502-bdd5-4cb5d80cd9d5")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR093"
 			(at 260.35 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5297,7 +5819,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR088")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -5557,7 +6079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a759fc1-fc45-403d-9496-a603bb90f9b5")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 26.67 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5617,7 +6139,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5717,7 +6239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71bb8acb-8d1b-4b08-a87f-1765c6b58445")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR092"
 			(at 252.73 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5777,7 +6299,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR087")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -5795,7 +6317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71d9cd92-5a8e-4764-b5a9-645afbff19d0")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR090"
 			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5855,7 +6377,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR085")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -5953,7 +6475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783de849-dde5-4d18-8abc-e153ff06264c")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 63.5 127 0)
 			(hide yes)
 			(show_name no)
@@ -6013,7 +6535,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -6031,7 +6553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce882e0-5a51-42a8-a02d-402b35ccd5ad")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR084"
 			(at 154.94 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6091,7 +6613,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR079")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6514,7 +7036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9176acde-8458-4990-8dc9-9735a84ee62c")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR089"
 			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6574,7 +7096,245 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR084")
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9455d853-a044-42a8-bb54-f477e57877e0")
+		(property "Reference" "#PWR080"
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27a5b50f-a33d-4f37-9551-cd31e4bf5d89")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9639ec33-ff35-47d2-b88d-b6490e3525f3")
+		(property "Reference" "R21"
+			(at 119.38 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 119.38 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.618 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ae94f2a-b5e2-428a-a57e-ba2bea8e8950")
+		)
+		(pin "1"
+			(uuid "4a9f788d-c255-45bc-ab14-0f1c6d0a25cf")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9acaa562-2eca-4c73-9033-d09fb3cfc1bc")
+		(property "Reference" "#PWR078"
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "283b6ec5-7727-4de0-9c95-2e772a1fe1a1")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6592,7 +7352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e0d2423-0a1c-4c6d-961e-b7bd44164997")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR086"
 			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6652,7 +7412,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR081")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6750,7 +7510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d58383-a9d2-424b-812e-3999189f8891")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 39.37 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6810,7 +7570,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6987,7 +7747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6e7a5f-3972-42d2-9b07-b4b9909c4454")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 40.64 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7047,7 +7807,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7225,7 +7985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce170fed-201d-45b4-bc5a-a10b49ff7546")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 100.33 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7285,7 +8045,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7303,7 +8063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cecfae36-25fd-4165-9b89-3721bc6298fc")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR087"
 			(at 182.88 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7363,7 +8123,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR082")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7381,7 +8141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d003f9de-ed65-4336-846b-74b22d389386")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 57.15 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7441,7 +8201,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -7581,7 +8341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3acbeee-6380-45d1-80ba-f52fad8a086b")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR085"
 			(at 162.56 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7641,7 +8401,89 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR080")
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6584acf-50da-4d97-8906-e2795b845295")
+		(property "Reference" "R20"
+			(at 114.3 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 114.3 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.538 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "754fc355-cdbf-4dec-a85b-e9d6f22fb4a1")
+		)
+		(pin "1"
+			(uuid "020c1cd5-a96b-4ba0-b818-1331aecb53a4")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7659,7 +8501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7563bf3-f4ae-4760-80f8-4dd2f1e9a1df")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 100.33 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7719,7 +8561,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7976,7 +8818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3b3e66d-bf1f-4a86-adb7-4f6882c5f1bf")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 39.37 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8036,7 +8878,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8054,7 +8896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9214fa4-ddd8-45f4-9a22-d7c975e32427")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR088"
 			(at 187.96 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8114,7 +8956,89 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR083")
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec81c840-7a78-41b8-a94c-b3881f2f0718")
+		(property "Reference" "R19"
+			(at 109.22 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 109.22 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.458 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "caf81b2f-5738-4de6-9658-54b2f24915aa")
+		)
+		(pin "1"
+			(uuid "75271c95-7d5f-4978-8046-e7ec7e5c67c7")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8132,7 +9056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0e3b5e0-a686-4ba5-b442-82129a550141")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 26.67 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8192,7 +9116,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
