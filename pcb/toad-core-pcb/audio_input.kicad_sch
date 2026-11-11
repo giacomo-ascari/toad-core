@@ -1813,54 +1813,6 @@
 	)
 	(global_label "AUDIO_BIN+"
 		(shape input)
-		(at 54.61 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12bc3e6e-b29c-4b36-82a9-7a6a972d88e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.2551 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CODEC_BIN+"
-		(shape output)
-		(at 149.86 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1512fbeb-f684-4d3c-9b19-f9427e0f4725")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.88 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AUDIO_BIN-"
-		(shape input)
 		(at 54.61 170.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1869,7 +1821,7 @@
 			)
 			(justify right)
 		)
-		(uuid "201b02e4-9caf-46f4-b938-aeeec9b6d832")
+		(uuid "0c91d75e-2ff0-42c5-8f35-4d5753a140a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.2551 170.18 0)
 			(hide yes)
@@ -1880,30 +1832,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "CODEC_BIN-"
-		(shape output)
-		(at 149.86 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4afa24cc-5b64-4095-a599-ffe98cf0ffe2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.88 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -1979,6 +1907,54 @@
 			)
 		)
 	)
+	(global_label "AUDIO_BIN-"
+		(shape input)
+		(at 54.61 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf3fe728-a896-4bf5-8ce6-a4c77ec611c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.2551 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CODEC_BIN+"
+		(shape output)
+		(at 149.86 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dab842dc-6a70-4351-93a6-d6aa334f1e96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CODEC_VCOM"
 		(shape input)
 		(at 87.63 147.32 0)
@@ -1992,6 +1968,30 @@
 		(uuid "dd96d0f0-a07e-4432-a410-63f5231e972f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.0128 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CODEC_BIN-"
+		(shape output)
+		(at 149.86 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbd6f6e3-6bdf-472c-bbc5-4eb1efed3878")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.88 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2225,7 +2225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e819e6-1ec2-4532-b54e-c97d73057181")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0101"
 			(at 222.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2285,7 +2285,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR097")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b336437b-286c-4e5c-8d6a-c2f50f83ffe9")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR099"
 			(at 78.74 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +4005,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR095")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -4345,7 +4345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27db932-58e4-4476-be9a-8b1ed4b2b8b7")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR098"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4405,7 +4405,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR094")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -4619,7 +4619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb97e83-4944-4c66-bbd3-444767046108")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0100"
 			(at 222.25 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4679,7 +4679,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR096")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
