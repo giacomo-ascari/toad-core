@@ -404,6 +404,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -4211,10 +4334,34 @@
 		(uuid "533540ba-a343-4b06-9b53-f7b7028ea888")
 	)
 	(junction
+		(at 78.74 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02db89f4-b326-4469-8aad-0819fa7bdcfd")
+	)
+	(junction
 		(at 60.96 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "064983c3-17ab-42b9-9a39-9affabed86df")
+	)
+	(junction
+		(at 124.46 168.9099)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13d71113-ec9a-48e7-84ff-13f2866a68d9")
+	)
+	(junction
+		(at 81.28 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f8b9273-83ac-42e7-8bb6-e3687050405a")
+	)
+	(junction
+		(at 157.48 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b3c5f53-a850-4a09-8b76-77977003b64d")
 	)
 	(junction
 		(at 34.29 97.79)
@@ -4241,6 +4388,12 @@
 		(uuid "381a5843-a531-44fe-8aab-c933dcce456b")
 	)
 	(junction
+		(at 121.92 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba21a27-c69d-4aab-92b9-58dad485cda1")
+	)
+	(junction
 		(at 39.37 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4265,6 +4418,12 @@
 		(uuid "6f0ff4dc-eb10-439a-9b02-c5ce4379d0a3")
 	)
 	(junction
+		(at 86.36 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83ea6515-bb89-4b6d-948c-a0fe020a6c8e")
+	)
+	(junction
 		(at 63.5 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4275,6 +4434,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d2548de-c6ab-4140-9c7a-d7cd281964f1")
+	)
+	(junction
+		(at 154.94 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f94c7da-7901-4d84-b704-9f1d2dc77536")
 	)
 	(junction
 		(at 201.93 35.56)
@@ -4289,10 +4454,22 @@
 		(uuid "98c3eb15-3c11-422e-ad38-d8f5329465d4")
 	)
 	(junction
+		(at 160.02 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb49f64b-3526-40df-aedf-5fd4058d3617")
+	)
+	(junction
 		(at 39.37 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8ac4cce-7041-434c-a8bb-5f569b4bfe39")
+	)
+	(junction
+		(at 88.9 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbc4e3af-6a04-4e55-8e50-c103995975c9")
 	)
 	(junction
 		(at 22.86 172.72)
@@ -4325,6 +4502,18 @@
 		(uuid "dc358367-b11f-44d4-bc93-65feddd1c494")
 	)
 	(junction
+		(at 83.82 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcce2d0b-24c3-4128-8251-c1bc5e1dee8e")
+	)
+	(junction
+		(at 76.2 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f05d703d-79ce-4ef8-89fd-4203ca8c5b81")
+	)
+	(junction
 		(at 201.93 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4342,6 +4531,12 @@
 		(color 0 0 0 0)
 		(uuid "fbc8ab3d-f315-4320-ab36-058f543b2758")
 	)
+	(junction
+		(at 162.5445 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc5dbbc1-2395-42ca-a150-b74c55a29701")
+	)
 	(no_connect
 		(at 104.14 143.51)
 		(uuid "03dd4db8-172e-4700-a9a1-ce7d15976d07")
@@ -4353,10 +4548,6 @@
 	(no_connect
 		(at 63.5 95.25)
 		(uuid "12f028b5-9004-470f-86a6-79e52073eb4e")
-	)
-	(no_connect
-		(at 119.38 143.51)
-		(uuid "231cf407-05d0-45cb-be53-1c13829b1219")
 	)
 	(no_connect
 		(at 63.5 92.71)
@@ -4433,6 +4624,10 @@
 	(no_connect
 		(at 114.3 143.51)
 		(uuid "b0b27f89-3711-46e4-b080-6c6646a670a2")
+	)
+	(no_connect
+		(at 63.5 64.77)
+		(uuid "b28589c3-237b-4d92-9595-950bb504ca0c")
 	)
 	(no_connect
 		(at 63.5 80.01)
@@ -4618,6 +4813,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 123.19) (xy 166.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b660d58-18d8-43a6-9d08-0dc609a974d0")
+	)
+	(wire
+		(pts
 			(xy 132.08 44.45) (xy 132.08 46.99)
 		)
 		(stroke
@@ -4628,6 +4833,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 166.37) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfc69c1-df88-4a9e-81aa-ae47a64b5fb0")
+	)
+	(wire
+		(pts
 			(xy 114.3 44.45) (xy 114.3 46.99)
 		)
 		(stroke
@@ -4635,16 +4850,6 @@
 			(type default)
 		)
 		(uuid "1dbfe47a-3327-4edc-8943-21829ad036d4")
-	)
-	(wire
-		(pts
-			(xy 139.7 118.11) (xy 142.24 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2261d92e-c52b-43a0-a2e5-c87634131c73")
 	)
 	(wire
 		(pts
@@ -4728,6 +4933,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 143.51) (xy 88.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5ff0b2-c0d2-4e3c-90a4-fc76c66dac43")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 166.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f91642b-5f90-43b7-9f9b-bcd16661821f")
+	)
+	(wire
+		(pts
 			(xy 132.08 149.86) (xy 137.16 149.86)
 		)
 		(stroke
@@ -4768,6 +4993,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36244917-528b-48b4-891e-0422fb639006")
+	)
+	(wire
+		(pts
 			(xy 96.52 44.45) (xy 96.52 46.99)
 		)
 		(stroke
@@ -4775,6 +5010,16 @@
 			(type default)
 		)
 		(uuid "36906c69-03c0-4c43-b61b-f389d683f7c1")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 154.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e9c20d-fd08-4e87-8010-285d9b3b40ee")
 	)
 	(wire
 		(pts
@@ -4808,13 +5053,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 64.77) (xy 45.72 33.02)
+			(xy 81.28 151.13) (xy 81.28 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39fec8a6-687b-4c9f-9ded-16de976cb5c7")
+		(uuid "3a011ea8-452a-46ea-a8e8-cef443edfaf5")
 	)
 	(wire
 		(pts
@@ -4858,13 +5103,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 142.24 123.19)
+			(xy 139.7 125.73) (xy 162.5445 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f16ddf0-07ed-4c8e-a811-9f610c92e488")
+		(uuid "3e6b29b9-9784-4d28-8d41-c47dae6f0fec")
 	)
 	(wire
 		(pts
@@ -4928,16 +5173,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 120.65) (xy 142.24 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d843e4-802e-4870-9da1-73a13d4ff305")
-	)
-	(wire
-		(pts
 			(xy 101.6 44.45) (xy 101.6 46.99)
 		)
 		(stroke
@@ -4958,7 +5193,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 35.56 35.56)
+			(xy 34.29 33.02) (xy 34.29 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5008,6 +5243,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 146.05) (xy 76.2 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c383145-d94c-4244-9afe-291f30f2a1e9")
+	)
+	(wire
+		(pts
+			(xy 162.5445 125.73) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6059029d-0513-4edf-993b-8f28a5ef295b")
+	)
+	(wire
+		(pts
 			(xy 237.49 144.78) (xy 237.49 147.32)
 		)
 		(stroke
@@ -5018,7 +5273,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 143.51) (xy 78.74 146.05)
+			(xy 78.74 148.59) (xy 78.74 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b493f3-ef92-4c06-9de8-4b2371b7905e")
+	)
+	(wire
+		(pts
+			(xy 78.74 143.51) (xy 78.74 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5138,16 +5403,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 33.02) (xy 35.56 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0221d5-5f30-49bf-8e30-caf168ad231a")
-	)
-	(wire
-		(pts
 			(xy 60.96 105.41) (xy 63.5 105.41)
 		)
 		(stroke
@@ -5198,7 +5453,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 162.56) (xy 121.92 160.02)
+			(xy 121.92 173.99) (xy 121.92 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5215,6 +5470,16 @@
 			(type default)
 		)
 		(uuid "84f756b6-ac24-4843-94a4-8b2e1c143156")
+	)
+	(wire
+		(pts
+			(xy 83.82 153.67) (xy 83.82 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8659c58a-c175-4154-bd0d-8f879932ab8e")
 	)
 	(wire
 		(pts
@@ -5238,7 +5503,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 143.51) (xy 83.82 146.05)
+			(xy 83.82 143.51) (xy 83.82 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5248,7 +5513,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 162.56) (xy 124.46 154.94)
+			(xy 124.46 173.99) (xy 124.46 168.9099)
 		)
 		(stroke
 			(width 0)
@@ -5348,6 +5613,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 156.21) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1704f30-011f-4c83-8d51-6a12bd00f239")
+	)
+	(wire
+		(pts
 			(xy 237.49 113.03) (xy 223.52 113.03)
 		)
 		(stroke
@@ -5408,16 +5683,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 125.73) (xy 142.24 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ba9b81-a3b7-4ac6-8d2b-2323e91c5035")
-	)
-	(wire
-		(pts
 			(xy 46.99 120.65) (xy 46.99 132.08)
 		)
 		(stroke
@@ -5448,7 +5713,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 143.51) (xy 81.28 146.05)
+			(xy 81.28 143.51) (xy 81.28 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5488,7 +5753,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 146.05) (xy 86.36 143.51)
+			(xy 34.29 33.02) (xy 36.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baffd3e7-d9bf-4728-b537-ac2222b1a97f")
+	)
+	(wire
+		(pts
+			(xy 86.36 162.56) (xy 86.36 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5518,16 +5793,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 146.05) (xy 88.9 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c000ba14-4a01-4cc1-8bec-902e5f6cf347")
-	)
-	(wire
-		(pts
 			(xy 35.56 185.42) (xy 22.86 185.42)
 		)
 		(stroke
@@ -5535,16 +5800,6 @@
 			(type default)
 		)
 		(uuid "c1b63139-1eba-4109-8851-b6919fda223a")
-	)
-	(wire
-		(pts
-			(xy 63.5 64.77) (xy 45.72 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c26ab5-f8c5-4428-a120-59fe9d8d1cf4")
 	)
 	(wire
 		(pts
@@ -5585,6 +5840,16 @@
 			(type default)
 		)
 		(uuid "c8abd879-5f16-4ecd-8ce9-d9933ef5900c")
+	)
+	(wire
+		(pts
+			(xy 119.38 143.51) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d57427-216e-4655-96fc-6f14fb891fbe")
 	)
 	(wire
 		(pts
@@ -5648,6 +5913,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 118.11) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9db1022-244b-4e48-8dd8-81227a45ea49")
+	)
+	(wire
+		(pts
 			(xy 139.7 87.63) (xy 142.24 87.63)
 		)
 		(stroke
@@ -5655,6 +5930,16 @@
 			(type default)
 		)
 		(uuid "dab3c1dc-b84b-4b2a-be69-b156a2ba2381")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 157.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8b00c7-7f35-4c5b-9974-ff081b4306cf")
 	)
 	(wire
 		(pts
@@ -5715,6 +6000,16 @@
 			(type default)
 		)
 		(uuid "e7164226-f55a-485b-8b5e-a91ef69b013c")
+	)
+	(wire
+		(pts
+			(xy 124.46 168.9099) (xy 124.46 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dcfb35-e27d-4fa7-8502-1efdf50d7617")
 	)
 	(wire
 		(pts
@@ -6006,6 +6301,30 @@
 			)
 		)
 	)
+	(global_label "LED"
+		(shape passive)
+		(at 119.38 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1748e87c-429d-4ef5-9ae3-4338e8f296b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 151.371 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO_5"
 		(shape passive)
 		(at 223.52 120.65 0)
@@ -6246,9 +6565,33 @@
 			)
 		)
 	)
+	(global_label "LED"
+		(shape passive)
+		(at 36.83 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24445d1b-0869-4e9c-a2ca-0f3d099719f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.151 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CODEC_I2S_MOSI"
 		(shape output)
-		(at 83.82 146.05 270)
+		(at 83.82 162.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6258,7 +6601,7 @@
 		)
 		(uuid "24a6218a-2169-4084-934b-adbde8a7c3e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 164.8799 90)
+			(at 83.82 181.3899 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,7 +6735,7 @@
 	)
 	(global_label "CODEC_I2S_MCK"
 		(shape output)
-		(at 86.36 146.05 270)
+		(at 86.36 162.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6402,7 +6745,7 @@
 		)
 		(uuid "3167de1e-0bd1-44ea-ae0f-97b0bcef46a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 164.2751 90)
+			(at 86.36 180.7851 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6927,7 @@
 	)
 	(global_label "HPDAC_I2S_BCK"
 		(shape output)
-		(at 142.24 123.19 0)
+		(at 166.37 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6594,7 +6937,7 @@
 		)
 		(uuid "3c302566-7bdb-4d1b-a4eb-7536672b896a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.2233 123.19 0)
+			(at 184.3533 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6800,7 +7143,7 @@
 	)
 	(global_label "CODEC_I2S_BCK"
 		(shape output)
-		(at 78.74 146.05 270)
+		(at 78.74 162.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6810,7 +7153,7 @@
 		)
 		(uuid "58235c17-b58f-4de6-9d03-feabb45f4dee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 164.0937 90)
+			(at 78.74 180.6037 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +7527,7 @@
 	)
 	(global_label "CODEC_RESET"
 		(shape output)
-		(at 88.9 146.05 270)
+		(at 88.9 162.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7194,7 +7537,7 @@
 		)
 		(uuid "7fc8df29-c488-4b13-8ce8-72e84b18de5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 162.0374 90)
+			(at 88.9 178.5474 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +7767,7 @@
 	)
 	(global_label "CODEC_I2S_WS"
 		(shape output)
-		(at 76.2 146.05 270)
+		(at 76.2 162.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7434,7 +7777,7 @@
 		)
 		(uuid "a2fc187b-bc8c-4df2-9f03-5541aeabb308")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 162.9446 90)
+			(at 76.2 179.4546 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,7 +7839,7 @@
 	)
 	(global_label "CODEC_I2S_MISO"
 		(shape input)
-		(at 81.28 146.05 270)
+		(at 81.28 162.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7506,7 +7849,7 @@
 		)
 		(uuid "a7e6be7f-6fca-4d54-9e01-67d3d12ee56c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 164.8799 90)
+			(at 81.28 181.3899 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +7911,7 @@
 	)
 	(global_label "HPDAC_I2S_WS"
 		(shape output)
-		(at 142.24 125.73 0)
+		(at 166.37 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7578,7 +7921,7 @@
 		)
 		(uuid "bf4e1ab3-b14e-42e8-8304-01cae1e95452")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.0742 125.73 0)
+			(at 183.2042 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +8175,7 @@
 	)
 	(global_label "CODEC_I2C_SDA"
 		(shape bidirectional)
-		(at 124.46 162.56 270)
+		(at 124.46 173.99 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7842,7 +8185,7 @@
 		)
 		(uuid "f0a418cd-622c-43c7-8ab9-0c61e391b931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 181.5336 90)
+			(at 124.46 192.9636 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7880,7 +8223,7 @@
 	)
 	(global_label "HPDAC_I2S_SDO"
 		(shape output)
-		(at 142.24 118.11 0)
+		(at 166.37 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7890,7 +8233,7 @@
 		)
 		(uuid "f75a5c89-bc67-4352-a6ae-86199c60d2e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.2233 118.11 0)
+			(at 184.3533 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7904,7 +8247,7 @@
 	)
 	(global_label "CODEC_I2C_SCL"
 		(shape bidirectional)
-		(at 121.92 162.56 270)
+		(at 121.92 173.99 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7914,7 +8257,7 @@
 		)
 		(uuid "f8866c72-ef9e-4f1c-8b7f-1af87e38e24f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 181.4731 90)
+			(at 121.92 192.9031 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7928,7 +8271,7 @@
 	)
 	(global_label "HPDAC_IRQ"
 		(shape input)
-		(at 142.24 120.65 0)
+		(at 166.37 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7938,7 +8281,7 @@
 		)
 		(uuid "fdfebb80-3cad-4b5d-8adf-daf8594e190f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.6272 120.65 0)
+			(at 179.7572 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,6 +8314,85 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 78.74 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "001c4f47-3adf-4525-ad5c-c0e1418c885e")
+		(property "Reference" "TP2"
+			(at 76.962 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 80.01 149.8599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 83.82 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2489b6b9-792f-4a3a-98bb-f6d8b91197dc")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8559,6 +8981,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 157.48 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "242a3ed2-b859-42de-9bf1-ec94d387c9d6")
+		(property "Reference" "TP10"
+			(at 155.702 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 158.75 121.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "101a73f4-2afd-4028-8bbd-1aec1e0d47bc")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 137.16 149.86 0)
 		(unit 1)
@@ -9059,6 +9560,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 154.94 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "453dfb52-4c07-4e9b-8343-cd2c19715390")
+		(property "Reference" "TP9"
+			(at 153.162 116.586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 156.21 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "802034ab-567b-4d73-a362-86c9aa6c9832")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 46.99 0)
 		(unit 1)
@@ -9300,7 +9880,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 35.56 46.99 90)
+		(at 34.29 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9311,7 +9891,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a3692cf-cb3e-4c40-89a4-48b371ac0f29")
 		(property "Reference" "D2"
-			(at 39.37 47.3074 90)
+			(at 38.1 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9322,7 +9902,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 39.37 49.8474 90)
+			(at 38.1 49.8474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9333,7 +9913,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 35.56 46.99 0)
+			(at 34.29 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9344,7 +9924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 46.99 0)
+			(at 34.29 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,7 +9935,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 35.56 46.99 0)
+			(at 34.29 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9366,7 +9946,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 35.56 46.99 0)
+			(at 34.29 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10027,6 +10607,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77606ec6-78c7-47bb-82a7-3c42e35ecd1d")
+		(property "Reference" "TP11"
+			(at 158.242 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 124.4599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09e66595-c7a4-4b64-8b14-e5e5736dfd17")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 88.9 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78576137-e60a-4a1d-bc71-df19c3b208cc")
+		(property "Reference" "TP6"
+			(at 87.376 157.226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 90.17 160.0199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 93.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b11bf2c5-1bd0-4f5c-abc6-8ac3d4064209")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 40.64 0)
 		(unit 1)
@@ -10109,7 +10847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 50.8 0)
+		(at 34.29 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10120,7 +10858,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ffc5a3c-0295-4db5-9c20-3db1d11995f7")
 		(property "Reference" "#PWR010"
-			(at 35.56 57.15 0)
+			(at 34.29 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,7 +10869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 55.88 0)
+			(at 34.29 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10141,7 +10879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 50.8 0)
+			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10152,7 +10890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 50.8 0)
+			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +10901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 50.8 0)
+			(at 34.29 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10186,6 +10924,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 86.36 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89655569-b426-42ad-b3e4-57b3e6ff214e")
+		(property "Reference" "TP5"
+			(at 84.582 154.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 87.63 157.4799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 91.44 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a995ec7-6292-4f64-9262-0d8062638994")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 237.49 144.78 0)
 		(unit 1)
@@ -10197,7 +11014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2ed11a-ff8c-40ad-b2fb-066e0e9fae3f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10257,7 +11074,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10275,7 +11092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f3d028-847b-486d-abd8-aa53cf868cc8")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR034"
 			(at 237.49 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10335,7 +11152,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR0107")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10498,6 +11315,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 162.5445 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a9b31c3-4657-48b9-9249-42f71bdb3dc8")
+		(property "Reference" "TP12"
+			(at 160.7665 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 163.8145 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 167.6245 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.6245 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.5445 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1bdf99f-4267-4e92-bc8d-bce9af1351e7")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 107.95 152.4 0)
 		(unit 1)
@@ -10587,7 +11483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a238000e-f226-4f9a-aab4-7f32c24ef1f2")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 217.17 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +11569,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10752,6 +11648,85 @@
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 124.46 168.9099 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4d35784-f828-4ed4-8e2c-84900a35b714")
+		(property "Reference" "TP8"
+			(at 122.682 167.3859 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 125.73 170.1798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 129.54 168.9099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 168.9099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 168.9099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "744d88af-e1d7-4c36-94da-14d498afaee6")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -10925,7 +11900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b294574d-e2b7-4428-b609-3d857e166e01")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 217.17 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11017,7 +11992,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11729,7 +12704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7532cf9-f2c3-431e-b164-a08d0107753b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR030"
 			(at 196.85 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11789,7 +12764,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR035")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12377,6 +13352,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 81.28 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d805a32d-8937-4ba2-ac27-0d80db54d615")
+		(property "Reference" "TP3"
+			(at 79.502 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 82.55 152.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 86.36 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35c6971e-d460-43fd-a461-5691576d31de")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 170.18 0)
 		(unit 1)
@@ -12449,6 +13503,85 @@
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 121.92 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc6b015d-d69f-4094-bc75-75430749e0e0")
+		(property "Reference" "TP7"
+			(at 120.142 164.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 123.19 167.6399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 127 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f034476-9b68-4e79-9fc4-cefc141acbda")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -12771,8 +13904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 35.56 39.37 0)
+		(lib_id "Connector:TestPoint_Small")
+		(at 83.82 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12780,10 +13913,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecbcd0da-b731-4bf2-a70e-dcb4390c3030")
-		(property "Reference" "R3"
-			(at 38.1 38.0999 0)
+		(uuid "e9bdc2d4-567d-42ba-a0ad-b88d1e10dc39")
+		(property "Reference" "TP4"
+			(at 82.042 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12793,8 +13925,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680"
-			(at 38.1 40.6399 0)
+		(property "Value" "TestPoint_Small"
+			(at 85.09 154.9399 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12804,8 +13937,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.782 39.37 90)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 88.9 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12816,7 +13949,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 39.37 0)
+			(at 88.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7b3099f-5142-470e-aadc-46a237b0bf14")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecbcd0da-b731-4bf2-a70e-dcb4390c3030")
+		(property "Reference" "R3"
+			(at 36.83 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680"
+			(at 36.83 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 32.512 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12827,7 +14039,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 39.37 0)
+			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,6 +14138,85 @@
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 76.2 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f80ae56d-f795-4afb-9c7f-7fb57f1f1090")
+		(property "Reference" "TP1"
+			(at 74.422 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 77.47 147.3199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 81.28 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19876faf-f356-450f-9936-6210073cf667")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -13178,7 +14469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe71e219-abc6-4039-9f37-a621523dd549")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR029"
 			(at 196.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13238,7 +14529,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR0106")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
