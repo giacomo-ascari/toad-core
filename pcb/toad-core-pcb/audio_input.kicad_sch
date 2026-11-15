@@ -2052,6 +2052,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 60.96 170.18 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00f0c9d9-9572-4d30-bdb3-9f20c53b40f6")
+		(property "Reference" "C56"
+			(at 60.96 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220n C0G"
+			(at 60.96 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 57.15 169.2148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21120"
+			(at 60.96 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b42a9de5-acc2-4be5-9e6b-0fcdd47d1275")
+		)
+		(pin "2"
+			(uuid "b89b0262-e9af-48fb-815e-5196f967edda")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 132.08 90)
 		(unit 1)
@@ -2063,7 +2154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01c8ca95-96f3-4833-b75b-00bcd2b5136a")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 125.73 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2116,6 +2207,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25199"
+			(at 125.73 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fa04b95-5805-4b08-95c3-125d2c09bb1b")
 		)
@@ -2125,7 +2227,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "059471c1-5df4-4006-8a67-36f89f477229")
-		(property "Reference" "C56"
+		(property "Reference" "C57"
 			(at 82.55 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,6 +2300,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C307500"
+			(at 78.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c971f722-ba39-4ef8-8726-68fa6e9c31ef")
 		)
@@ -2207,7 +2320,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -2225,7 +2338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e819e6-1ec2-4532-b54e-c97d73057181")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0102"
 			(at 222.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2285,7 +2398,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR0101")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2303,7 +2416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "145677d3-dd65-49ab-9a03-2a61fe555df4")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 125.73 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2356,6 +2469,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2079726"
+			(at 125.73 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7dd6404-998f-4b6d-9a05-807171160acc")
 		)
@@ -2365,7 +2489,100 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R28")
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 140.97 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac2c44d-f5ac-49ab-a87e-8450062a2426")
+		(property "Reference" "R25"
+			(at 69.85 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510k"
+			(at 69.85 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.088 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23192"
+			(at 67.31 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3b3015f-d1e5-4b04-bbbe-07acb221e08d")
+		)
+		(pin "2"
+			(uuid "74f90751-3949-4b1f-a27c-0d9fcca301ba")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -2383,7 +2600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36430efd-3ad0-441f-97dd-c57179012f3b")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 125.73 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2436,6 +2653,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2079726"
+			(at 125.73 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "215dd02f-7749-43b4-8bba-951f67f25130")
 		)
@@ -2445,7 +2673,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2463,7 +2691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "372faae7-4bf6-4589-b4a5-8f30a3b8064e")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 125.73 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2516,6 +2744,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2079726"
+			(at 125.73 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "baffb046-fcd1-4222-a48e-6fd20fd2fd95")
 		)
@@ -2525,7 +2764,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2586,6 +2825,17 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 114.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C50282"
 			(at 114.3 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2659,7 +2909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5428c9be-ab60-483b-b2a2-33ffa65a4bcb")
-		(property "Reference" "C52"
+		(property "Reference" "C53"
 			(at 60.96 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2919,7 @@
 				)
 			)
 		)
-		(property "Value" "10u C0G"
+		(property "Value" "220n C0G"
 			(at 60.96 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 53.6448 0)
 			(hide yes)
 			(show_name no)
@@ -2712,6 +2962,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C21120"
+			(at 60.96 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d5818a9-3f13-4015-bfb6-090150e4faa6")
 		)
@@ -2721,7 +2982,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -2739,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55ab7eb2-b955-4d3e-9463-7af43bfeda09")
-		(property "Reference" "C59"
+		(property "Reference" "C60"
 			(at 114.3 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,6 +3053,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 114.3 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "974850d0-53d8-48e4-8627-4a4ed22bad52")
 		)
@@ -2801,7 +3073,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C59")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -2819,7 +3091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56814559-2061-43c7-9d4c-1a0b8a36b5b8")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 125.73 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,6 +3144,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25199"
+			(at 125.73 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d15d9595-a809-4942-8770-9d100d013db9")
 		)
@@ -2881,7 +3164,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2899,7 +3182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bd63592-ce2b-4342-96b2-40acb0253290")
-		(property "Reference" "C64"
+		(property "Reference" "C65"
 			(at 194.31 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2910,7 +3193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u C0G"
+		(property "Value" "10u"
 			(at 194.31 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2954,6 +3237,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C440198"
+			(at 198.12 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9399fa49-dfa1-414e-bcab-37a2e3655969")
 		)
@@ -2963,7 +3257,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C64")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -2981,7 +3275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1e4a72-0e32-48e7-b8d0-96223018242e")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 125.73 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,6 +3328,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25199"
+			(at 125.73 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba22ea0f-27ec-41dc-8254-095fd223b003")
 		)
@@ -3043,89 +3348,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 67.31 140.97 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e98add-f583-4386-877d-575bda03fb2d")
-		(property "Reference" "R24"
-			(at 69.85 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 69.85 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.088 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d81b301a-dc52-4c54-b2e0-6c2b89b4179d")
-		)
-		(pin "2"
-			(uuid "f1d8efc7-c9f7-4483-bbfc-3882a5b2c727")
-		)
-		(instances
-			(project "toad-core-pcb"
-				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R24")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3198,6 +3421,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C50282"
+			(at 224.79 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "f38b9329-e1e3-4845-9735-c0a2b0168424")
 		)
@@ -3251,86 +3485,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 134.62 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6df20aab-0504-4fb7-8bc7-e6e87fbae1fa")
-		(property "Reference" "C54"
-			(at 60.96 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u C0G"
-			(at 60.96 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 57.15 133.6548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "614f2770-62d2-42ea-ae71-48f5b1322eeb")
-		)
-		(pin "2"
-			(uuid "aa640fd0-44f6-4f5f-afd7-3a880d387d8f")
-		)
-		(instances
-			(project "toad-core-pcb"
-				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 138.43 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -3341,7 +3495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbbdb9c-2759-45f2-930c-327efcde15c2")
-		(property "Reference" "C63"
+		(property "Reference" "C64"
 			(at 142.24 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3396,6 +3550,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1625600"
+			(at 138.43 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9927d089-fc42-4d23-9a3c-bcef81ddda99")
 		)
@@ -3405,7 +3570,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C63")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -3423,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a303694-709a-4597-9dba-63685211ad74")
-		(property "Reference" "C58"
+		(property "Reference" "C59"
 			(at 114.3 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,6 +3641,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 114.3 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ffe5f242-5225-4630-ba36-4ef496e90839")
 		)
@@ -3485,7 +3661,100 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C58")
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "921e0234-f71c-4c2d-84e4-2ebce651a09e")
+		(property "Reference" "R26"
+			(at 69.85 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510k"
+			(at 69.85 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.088 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23192"
+			(at 67.31 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1133e43-0fb2-41b0-a1f9-571b767af419")
+		)
+		(pin "2"
+			(uuid "f38e4974-faca-4475-9c22-b3d856dc8ecd")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3546,6 +3815,17 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 114.3 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C50282"
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3619,7 +3899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d66d4eb-d67e-4465-913d-02c99643d9f0")
-		(property "Reference" "C65"
+		(property "Reference" "C66"
 			(at 210.82 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,6 +3954,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 214.63 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0472ddaf-b1c4-4e6c-9a87-6e7edef07752")
 		)
@@ -3683,7 +3974,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C65")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -3701,7 +3992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a117977f-d51f-470e-b8a1-bc88921d5f15")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 125.73 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3754,6 +4045,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25199"
+			(at 125.73 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "84cca779-5bcd-4398-a24c-fea2c2d0426d")
 		)
@@ -3763,7 +4065,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3781,7 +4083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a84c0da9-9db7-49e1-8451-c82302645e80")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 69.85 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +4094,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "510k"
 			(at 69.85 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,6 +4138,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23192"
+			(at 67.31 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60942adc-9dd3-4cf3-bbcb-9e9dc2b22d50")
 		)
@@ -3845,7 +4158,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3863,7 +4176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1ad8aa8-d8da-4472-ad85-0807084b1eb4")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 82.55 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,6 +4231,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C307500"
+			(at 78.74 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "035b0418-0b93-4ac0-bb6a-c89401e5203b")
 		)
@@ -3927,7 +4251,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3945,7 +4269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b336437b-286c-4e5c-8d6a-c2f50f83ffe9")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0100"
 			(at 78.74 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +4329,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -4023,7 +4347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9dba484-3fe6-40a5-be09-91666bed71be")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 125.73 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,6 +4400,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2079726"
+			(at 125.73 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5b7612bd-9025-4fc7-90ab-475eb645d808")
 		)
@@ -4085,7 +4420,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4093,7 +4428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 170.18 270)
+		(at 60.96 134.62 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4102,9 +4437,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bc23e7cc-ad08-4900-8458-b2955dead475")
+		(uuid "ba734e08-eba9-435b-92e2-59465ada60af")
 		(property "Reference" "C55"
-			(at 60.96 162.56 90)
+			(at 60.96 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4113,8 +4448,8 @@
 				)
 			)
 		)
-		(property "Value" "10u C0G"
-			(at 60.96 165.1 90)
+		(property "Value" "220n C0G"
+			(at 60.96 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4123,8 +4458,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 57.15 169.2148 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 57.15 133.6548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +4470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 170.18 0)
+			(at 60.96 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4481,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 170.18 0)
+			(at 60.96 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21120"
+			(at 60.96 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,10 +4503,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "59407b00-2fb0-44c0-bf17-f1f0941082e7")
+			(uuid "3431aaec-2fd6-4211-9651-1d7235f9786d")
 		)
 		(pin "2"
-			(uuid "c51bea88-0393-4a68-baa1-74de6bd33053")
+			(uuid "0a3e4b20-f625-49a4-88b8-e93481381dfb")
 		)
 		(instances
 			(project "toad-core-pcb"
@@ -4172,8 +4518,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 67.31 153.67 180)
+		(lib_id "Device:C")
+		(at 60.96 90.17 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4181,32 +4528,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c656c8b2-0738-46c2-8734-1ed80ec21a2f")
-		(property "Reference" "R25"
-			(at 69.85 152.3999 0)
+		(uuid "bd9f07b8-4d8f-4995-9c23-905fb14b28c9")
+		(property "Reference" "C54"
+			(at 60.96 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 69.85 154.9399 0)
+		(property "Value" "220n C0G"
+			(at 60.96 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.088 153.67 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 57.15 89.2048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4217,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 153.67 0)
+			(at 60.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4227,8 +4571,19 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 67.31 153.67 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21120"
+			(at 60.96 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4239,15 +4594,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb9e63a9-cd66-4c04-b5e3-6e9cf67fd21c")
+			(uuid "620170b9-b731-46af-b091-0022b03271d3")
 		)
 		(pin "2"
-			(uuid "0414f58c-80b9-40b3-a9b9-5be7f79eda39")
+			(uuid "0e8640a1-0bcb-4182-b5e3-fed85aa51c37")
 		)
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R25")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0076830-1475-4673-bb03-882f59d39c8c")
-		(property "Reference" "C61"
+		(property "Reference" "C62"
 			(at 114.3 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,6 +4673,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 114.3 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f8c0b12-ea53-424e-a129-ed4951bd04f2")
 		)
@@ -4327,7 +4693,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C61")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -4345,7 +4711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27db932-58e4-4476-be9a-8b1ed4b2b8b7")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR099"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4405,87 +4771,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 60.96 90.17 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8dfffe2-c4c9-413e-a77b-1b5d8442460a")
-		(property "Reference" "C53"
-			(at 60.96 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u C0G"
-			(at 60.96 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 57.15 89.2048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7831008-9843-4406-be6e-2a41a627bd22")
-		)
-		(pin "2"
-			(uuid "62ebb61f-1fed-4673-9f4a-c9823970f6a3")
-		)
-		(instances
-			(project "toad-core-pcb"
-				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C53")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -4546,6 +4832,17 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 114.3 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C50282"
 			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4619,7 +4916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb97e83-4944-4c66-bbd3-444767046108")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0101"
 			(at 222.25 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4679,7 +4976,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4697,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a043f6-0061-45fa-90ae-724565b4cdf4")
-		(property "Reference" "C60"
+		(property "Reference" "C61"
 			(at 114.3 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,6 +5047,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 114.3 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7000d1ad-a064-4832-ab15-cae4470a8632")
 		)
@@ -4759,7 +5067,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C60")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -4776,8 +5084,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f71a3221-92b6-4a6c-bbf8-5732ea1e9bae")
-		(property "Reference" "R23"
+		(uuid "f5c37d36-a683-4b52-96fc-c5000f53bbfa")
+		(property "Reference" "R24"
 			(at 69.85 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +5096,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "510k"
 			(at 69.85 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,16 +5140,27 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23192"
+			(at 67.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "7b217a86-9b40-4ff2-a603-8e613fc9a05a")
+			(uuid "040f07c9-df2b-4e23-85c1-b87c2324bda1")
 		)
 		(pin "2"
-			(uuid "3d0123d0-0141-43d2-a9c7-21f38175c068")
+			(uuid "4ee38202-3206-41cd-b9eb-f0afb88a926a")
 		)
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4859,7 +5178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbeb63b7-7bbc-414f-92e9-374182464fb2")
-		(property "Reference" "C62"
+		(property "Reference" "C63"
 			(at 142.24 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,6 +5233,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1625600"
+			(at 138.43 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1629da1-2478-449b-9e89-281f47a06494")
 		)
@@ -4923,7 +5253,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085"
-					(reference "C62")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -4984,6 +5314,17 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
+			(at 114.3 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C50282"
 			(at 114.3 167.64 0)
 			(hide yes)
 			(show_name no)

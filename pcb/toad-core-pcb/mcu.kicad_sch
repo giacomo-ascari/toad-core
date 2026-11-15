@@ -4454,6 +4454,12 @@
 		(uuid "98c3eb15-3c11-422e-ad38-d8f5329465d4")
 	)
 	(junction
+		(at 50.8 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5afb20e-5e4e-4cd9-92de-ea4ecc567999")
+	)
+	(junction
 		(at 160.02 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4488,6 +4494,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4e1afa9-6de7-40fa-a51c-67c3d21d1a84")
+	)
+	(junction
+		(at 86.36 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6e39d6d-8323-411e-881f-0159e940ee19")
 	)
 	(junction
 		(at 124.46 154.94)
@@ -4873,6 +4885,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 77.47) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25169243-c2bf-4586-97c5-536d31a58463")
+	)
+	(wire
+		(pts
 			(xy 76.2 143.51) (xy 76.2 146.05)
 		)
 		(stroke
@@ -5113,7 +5135,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 44.45) (xy 86.36 46.99)
+			(xy 86.36 40.64) (xy 86.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5130,6 +5152,16 @@
 			(type default)
 		)
 		(uuid "444b639d-b8c3-47d3-8889-30eae0598bd6")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 60.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f5af86-0680-49f5-a246-11802674e2c5")
 	)
 	(wire
 		(pts
@@ -5160,6 +5192,16 @@
 			(type default)
 		)
 		(uuid "49f5e20a-ab02-47ea-bac9-75a96d5c008e")
+	)
+	(wire
+		(pts
+			(xy 86.36 43.18) (xy 86.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5c5dac-30f0-4d5f-a48f-f05ae4c815cd")
 	)
 	(wire
 		(pts
@@ -5340,6 +5382,16 @@
 			(type default)
 		)
 		(uuid "6bf52cdc-89b3-45f7-b8fd-0092a3ae049b")
+	)
+	(wire
+		(pts
+			(xy 223.52 113.03) (xy 237.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc999fa-036e-4bd8-a39b-93ed48c32826")
 	)
 	(wire
 		(pts
@@ -5623,17 +5675,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 113.03) (xy 223.52 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3281055-2174-4872-a3e6-10b2b18019b7")
-	)
-	(wire
-		(pts
-			(xy 57.15 74.93) (xy 57.15 77.47)
+			(xy 50.8 58.42) (xy 50.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5703,7 +5745,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 33.02) (xy 86.36 36.83)
+			(xy 86.36 29.21) (xy 86.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5943,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 33.02) (xy 86.36 33.02)
+			(xy 78.74 29.21) (xy 86.36 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6023,7 +6065,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 77.47) (xy 63.5 77.47)
+			(xy 50.8 60.96) (xy 60.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6469,9 +6511,9 @@
 			)
 		)
 	)
-	(global_label "ADC_5"
+	(global_label "ADC_0"
 		(shape output)
-		(at 35.56 180.34 180)
+		(at 35.56 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6479,9 +6521,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1f79c02f-6d9d-4c22-a750-9064048a8216")
+		(uuid "1bf46c52-5aa0-402a-924f-8fda8f10669b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7691 180.34 0)
+			(at 26.7691 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6613,6 +6655,30 @@
 			)
 		)
 	)
+	(global_label "ADC_6"
+		(shape output)
+		(at 35.56 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25b77a44-6ba1-439f-92b5-45990ccc4333")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.7691 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDMMC_CK"
 		(shape input)
 		(at 223.52 38.1 180)
@@ -6637,30 +6703,6 @@
 			)
 		)
 	)
-	(global_label "ADC_3"
-		(shape output)
-		(at 35.56 177.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a2efacb-04e7-4ad1-ba8d-542dae11a8ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7691 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "USART_RX"
 		(shape output)
 		(at 223.52 149.86 0)
@@ -6674,30 +6716,6 @@
 		(uuid "2e2bf00b-8450-491a-a5db-5b30479eff12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 235.8185 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ADC_2"
-		(shape output)
-		(at 48.26 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ea439ac-429d-40a3-b2d3-713fa794d518")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0509 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,6 +6895,30 @@
 			)
 		)
 	)
+	(global_label "ADC_3"
+		(shape output)
+		(at 48.26 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36abbd71-ee73-432b-8e6e-fd63c78955f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0509 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO_6"
 		(shape passive)
 		(at 104.14 44.45 90)
@@ -6949,6 +6991,30 @@
 			)
 		)
 	)
+	(global_label "ADC_2"
+		(shape output)
+		(at 35.56 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "421834fe-6b58-4654-8ab0-e7f3fcdc8926")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.7691 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDMMC_D0"
 		(shape bidirectional)
 		(at 223.52 43.18 180)
@@ -6986,6 +7052,30 @@
 		(uuid "428e2ae5-26d6-4346-bf55-187eb9d7ecae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.0463 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_5"
+		(shape output)
+		(at 48.26 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45da21d7-6294-415e-bbf9-cf3695c76d48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0509 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,30 +7423,6 @@
 			)
 		)
 	)
-	(global_label "ADC_4"
-		(shape output)
-		(at 48.26 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "689e2607-0627-4af0-aa28-ff32320fa75a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0509 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO_14"
 		(shape passive)
 		(at 142.24 107.95 0)
@@ -7378,30 +7444,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "ADC_1"
-		(shape output)
-		(at 35.56 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "710e2b1f-704b-4511-b3d2-8cc09c2e305e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7691 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7466,6 +7508,30 @@
 		(uuid "761add96-f19b-4ee9-853f-a1452c2fc119")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.9758 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_1"
+		(shape output)
+		(at 48.26 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ade83a7-2ce9-439f-b60e-86909714dbe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0509 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7610,30 +7676,6 @@
 		(uuid "8c7ad4b7-b04c-43de-b626-b77e4062c7f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.6 35.9237 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ADC_6"
-		(shape output)
-		(at 48.26 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93786f2c-3c8c-4d84-b955-42314739bdc3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0509 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8005,6 +8047,30 @@
 			)
 		)
 	)
+	(global_label "ADC_7"
+		(shape output)
+		(at 48.26 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce18f7b6-c55b-4cd4-8dd0-402fa9579705")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0509 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO_2"
 		(shape passive)
 		(at 93.98 44.45 90)
@@ -8074,30 +8140,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ADC_0"
-		(shape output)
-		(at 48.26 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6e964ac-335a-4b3d-9f94-9dad136b77d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0509 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8173,6 +8215,30 @@
 			)
 		)
 	)
+	(global_label "ADC_4"
+		(shape output)
+		(at 35.56 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb1a8472-748b-40f2-baa8-465e9ccb7c70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.7691 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CODEC_I2C_SDA"
 		(shape bidirectional)
 		(at 124.46 173.99 270)
@@ -8186,30 +8252,6 @@
 		(uuid "f0a418cd-622c-43c7-8ab9-0c61e391b931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.46 192.9636 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ADC_7"
-		(shape output)
-		(at 35.56 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f44b3639-e70c-427c-8e32-0584db14ace2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7691 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8326,7 +8368,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "001c4f47-3adf-4525-ad5c-c0e1418c885e")
 		(property "Reference" "TP2"
 			(at 76.962 147.066 0)
@@ -8408,7 +8450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0172da92-6b1e-4e09-8aa0-a743d2df639e")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 198.12 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,6 +8505,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23630"
+			(at 201.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "463fea4c-287d-4a68-9843-75d88d66ddcb")
 		)
@@ -8472,7 +8525,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8542,6 +8595,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23162"
+			(at 114.3 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd6ac4cb-ba88-4777-8578-d797acb4a27a")
 		)
@@ -8569,7 +8633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08953997-b613-4a35-99ac-8b9731c1b757")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 269.24 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8629,7 +8693,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8646,7 +8710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1661ca1b-9f74-4441-b1f3-0559fb823573")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 171.45 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8701,6 +8765,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23630"
+			(at 167.64 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "26382b89-6d9a-43a6-98f1-53f0d4dbd9c5")
 		)
@@ -8710,7 +8785,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8785,6 +8860,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 24.13 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 24.13 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8876,6 +8962,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23228"
+			(at 24.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9254e92f-103d-4e06-aa2f-d58a3190df03")
 		)
@@ -8900,7 +8997,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2425b471-f147-4a72-88f0-917d570b2669")
 		(property "Reference" "J5"
@@ -8989,9 +9086,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "242a3ed2-b859-42de-9bf1-ec94d387c9d6")
-		(property "Reference" "TP10"
+		(property "Reference" "TP11"
 			(at 155.702 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9053,7 +9150,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP10")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9071,7 +9168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24df2fa7-92ac-45fe-a0a4-ada211f2e717")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 137.16 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9131,7 +9228,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9149,7 +9246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b3ee97c-118c-4661-9db9-e79b32bed1a2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 220.98 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9209,7 +9306,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9224,7 +9321,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "33c63c7e-fd32-401d-aed2-6777779c2491")
 		(property "Reference" "J1"
@@ -9415,7 +9512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b39fbb-cd68-4d82-86fc-a8130182138a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 60.96 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9475,7 +9572,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9483,7 +9580,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 57.15 74.93 0)
+		(at 50.8 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9493,8 +9590,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b9470e-8e7a-410f-909a-c620938b08a8")
-		(property "Reference" "#PWR015"
-			(at 57.15 78.74 0)
+		(property "Reference" "#PWR014"
+			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,7 +9602,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 57.15 69.85 0)
+			(at 50.8 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9515,7 +9612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 74.93 0)
+			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9526,7 +9623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 74.93 0)
+			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9537,7 +9634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 57.15 74.93 0)
+			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +9650,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9568,9 +9665,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "453dfb52-4c07-4e9b-8343-cd2c19715390")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 153.162 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9632,7 +9729,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -9650,7 +9747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4565da24-125b-4a70-954c-9be51eb9c2d5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 58.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9710,7 +9807,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9727,7 +9824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "460e17f3-c627-4dea-9063-3ee46bfb27a6")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 153.67 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9782,6 +9879,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 149.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d417ba92-f329-4aeb-8ab1-d61824848260")
 		)
@@ -9791,7 +9899,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9853,6 +9961,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 34.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
 			(at 34.29 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9956,6 +10075,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2286"
+			(at 34.29 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "17211656-4d15-4f6d-9071-f8235c5881cb")
 		)
@@ -9973,7 +10103,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 40.64 0)
+		(at 86.36 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9984,7 +10114,7 @@
 		(dnp no)
 		(uuid "4af17348-6d29-4e43-a0dd-676b3cca0a24")
 		(property "Reference" "R4"
-			(at 83.82 39.3699 0)
+			(at 83.82 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9995,7 +10125,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 83.82 41.9099 0)
+			(at 83.82 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10006,7 +10136,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 88.138 40.64 90)
+			(at 88.138 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10017,7 +10147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 40.64 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +10158,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 40.64 0)
+			(at 86.36 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25804"
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10064,7 +10205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d85029c-b821-4718-9ef2-94c4b369ac98")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 140.97 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,6 +10260,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 137.16 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "78f454e6-3516-46b6-8d2c-f878c5eaabba")
 		)
@@ -10128,7 +10280,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10146,7 +10298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "500e3f5f-b8ac-4aa5-a3a9-b1dbc9b71f5b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 58.42 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10206,7 +10358,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10214,7 +10366,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 33.02 0)
+		(at 78.74 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10224,8 +10376,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524d5407-b0d9-4fe1-806f-036e2f976172")
-		(property "Reference" "#PWR021"
-			(at 78.74 39.37 0)
+		(property "Reference" "#PWR022"
+			(at 78.74 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10236,7 +10388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 38.1 0)
+			(at 78.74 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10246,7 +10398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 33.02 0)
+			(at 78.74 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10257,7 +10409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 33.02 0)
+			(at 78.74 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,7 +10420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 33.02 0)
+			(at 78.74 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10284,7 +10436,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10302,7 +10454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52c65400-ba84-465f-96fa-5fc6ebdecc28")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 185.42 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10357,6 +10509,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23630"
+			(at 189.23 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "453bfc1c-e7b5-4827-a4e2-ef2c5583ecda")
 		)
@@ -10366,7 +10529,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10384,7 +10547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3b368a-7915-4d66-8eea-175ae6d236c6")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 60.96 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +10607,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10462,7 +10625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eec6b08-8982-47a3-87f0-ce8187c0c886")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 34.29 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10522,7 +10685,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10540,7 +10703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e0db4a6-74df-449f-ba98-d4540d49304a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 68.58 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10600,7 +10763,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10615,9 +10778,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "77606ec6-78c7-47bb-82a7-3c42e35ecd1d")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 158.242 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10679,7 +10842,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP11")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10694,9 +10857,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "78576137-e60a-4a1d-bc71-df19c3b208cc")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 87.376 157.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10758,7 +10921,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -10775,7 +10938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7caa359a-45f7-4530-9c1d-3e6e8a4d246b")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 62.23 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10830,6 +10993,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 58.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ee6484cc-ec8b-4c46-81bd-f3c51f832d92")
 		)
@@ -10839,7 +11013,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10857,7 +11031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ffc5a3c-0295-4db5-9c20-3db1d11995f7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 34.29 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10917,7 +11091,99 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR010")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83aa397a-3b90-4bed-b5de-de7c497d9b88")
+		(property "Reference" "C5"
+			(at 54.61 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 54.61 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 51.7652 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "777aa5fb-a087-4882-af30-7fbe8ff3db6e")
+		)
+		(pin "1"
+			(uuid "3edf226c-e168-4819-9069-427b99c79b4a")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10932,9 +11198,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "89655569-b426-42ad-b3e4-57b3e6ff214e")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 84.582 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10996,7 +11262,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11014,7 +11280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2ed11a-ff8c-40ad-b2fb-066e0e9fae3f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11074,7 +11340,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11092,7 +11358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f3d028-847b-486d-abd8-aa53cf868cc8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 237.49 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11152,7 +11418,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11170,7 +11436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9523e934-52a2-47ac-a74f-44255aeb4a54")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 149.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11230,7 +11496,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11248,7 +11514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a45e377-ef51-404e-96d7-454749c85da4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 274.32 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11308,7 +11574,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11323,9 +11589,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9a9b31c3-4657-48b9-9249-42f71bdb3dc8")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 160.7665 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11387,7 +11653,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP12")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -11405,7 +11671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b04db36-0683-4c65-8dae-b9e8bdb4aa25")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 107.95 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11465,7 +11731,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11480,10 +11746,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a238000e-f226-4f9a-aab4-7f32c24ef1f2")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 217.17 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11569,7 +11835,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11662,9 +11928,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a4d35784-f828-4ed4-8e2c-84900a35b714")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 122.682 167.3859 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11726,7 +11992,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -11744,7 +12010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe88322-30d0-4c81-bd70-29d491b618da")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 201.93 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11804,7 +12070,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11822,7 +12088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afdff5cf-31cb-4a77-9992-fcedf8816e08")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11882,7 +12148,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11890,17 +12156,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
-		(at 218.44 118.11 0)
-		(mirror y)
+		(at 215.9 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b294574d-e2b7-4428-b609-3d857e166e01")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 217.17 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,7 +12186,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
-			(at 218.44 118.11 0)
+			(at 215.9 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11932,7 +12197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 118.11 0)
+			(at 215.9 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11943,7 +12208,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 118.11 0)
+			(at 215.9 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11992,7 +12257,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12010,7 +12275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b781a39c-847f-47b6-8969-629115991081")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 52.07 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12070,7 +12335,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12131,6 +12396,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 43.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C14663"
+			(at 43.18 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12303,6 +12579,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "JLCPCB Part #" "C404010"
+			(at 63.5 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "35"
@@ -12626,7 +12913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1174f6c-1070-48eb-81e2-63f778e8f7a7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 257.81 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12686,7 +12973,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12704,7 +12991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7532cf9-f2c3-431e-b164-a08d0107753b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 196.85 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12764,7 +13051,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12825,6 +13112,17 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with two card detection pins"
+			(at 246.38 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C585350"
 			(at 246.38 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12967,7 +13265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdfe8fa2-3fc1-4064-96fc-00e456c35d22")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 201.93 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13027,7 +13325,86 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR032")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 86.36 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ceb992e4-2dc9-4ff2-87ae-051676b30d8c")
+		(property "Reference" "TP5"
+			(at 84.836 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 87.6299 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Utils:custom_d0.6"
+			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8e20789-490a-4d60-9096-be074f5ed143")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -13045,7 +13422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf475dea-fbbc-43c3-af87-1011300a8839")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 36.83 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13100,6 +13477,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25804"
+			(at 34.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7bd0dc35-db79-412a-b744-1fdc511961e0")
 		)
@@ -13109,7 +13497,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13258,6 +13646,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23162"
+			(at 114.3 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c01049d-e72c-4a12-840a-ecc6ff8e7c90")
 		)
@@ -13360,7 +13759,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d805a32d-8937-4ba2-ac27-0d80db54d615")
 		(property "Reference" "TP3"
 			(at 79.502 149.606 0)
@@ -13442,7 +13841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d85bdf90-bd6f-482c-8cde-f4a642ff9d64")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 132.08 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13502,7 +13901,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13517,9 +13916,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dc6b015d-d69f-4094-bc75-75430749e0e0")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 120.142 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13581,7 +13980,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -13651,6 +14050,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C15849"
+			(at 43.18 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d56cd16-9cc7-4dfa-8a47-0abb362fc388")
 		)
@@ -13677,7 +14087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5f41384-5b35-4d85-8eec-b14e2690635e")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 135.89 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13732,6 +14142,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23630"
+			(at 132.08 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "503bcfec-de37-43b9-9711-c7c676e62d2c")
 		)
@@ -13741,7 +14162,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13759,7 +14180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7032fc8-bece-4d93-9353-ead089783b5a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13819,7 +14240,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13837,7 +14258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dc0ea8-e78f-4aeb-94ca-966f3528078a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 34.29 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13897,7 +14318,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -13912,7 +14333,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e9bdc2d4-567d-42ba-a0ad-b88d1e10dc39")
 		(property "Reference" "TP4"
 			(at 82.042 152.146 0)
@@ -13983,6 +14404,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9d82a53-18ae-43fd-8f8b-36c1ccaa7173")
+		(property "Reference" "#PWR015"
+			(at 50.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3615cd62-5c51-4daa-b935-c3df84466dd4")
+		)
+		(instances
+			(project "toad-core-pcb"
+				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 39.37 0)
 		(unit 1)
@@ -13994,7 +14493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecbcd0da-b731-4bf2-a70e-dcb4390c3030")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 36.83 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14049,6 +14548,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C23228"
+			(at 34.29 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f2537ca-46b8-4de5-91c9-fc195bfc162c")
 		)
@@ -14058,7 +14568,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14075,7 +14585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f647af62-03eb-4fe8-881d-b8d1b07e498b")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 64.77 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14128,6 +14638,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 64.77 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4d6f1dd-4437-42fb-b338-9b502f3742e5")
 		)
@@ -14137,7 +14658,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14152,7 +14673,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f80ae56d-f795-4afb-9c7f-7fb57f1f1090")
 		(property "Reference" "TP1"
 			(at 74.422 144.526 0)
@@ -14286,6 +14807,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 45.72 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86528c9e-d3fd-456d-843e-c0570118e631")
 		)
@@ -14391,7 +14923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdc191e0-cb14-4ad3-903a-627c062feccb")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 137.16 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14451,7 +14983,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14469,7 +15001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe71e219-abc6-4039-9f37-a621523dd549")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 196.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14529,7 +15061,7 @@
 		(instances
 			(project "toad-core-pcb"
 				(path "/ac4e73f3-984f-4c71-947f-66b6811ec6db/f1899304-2e7c-469f-a660-2ff31e713b85"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
