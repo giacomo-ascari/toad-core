@@ -145,9 +145,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -342,7 +342,7 @@
 				)
 			)
 		)
-		(property "Value" "100n 25V"
+		(property "Value" "100n"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b0ed74f1-6a18-40de-900c-7d0c52fd1b2b")
@@ -690,7 +690,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "b52ff167-7e68-4de8-b07f-aa1275167028")
@@ -2476,6 +2476,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "964a4df2-9523-4c79-97d9-f70e1715c2e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/04600047-0277-4d80-a3e7-bbd76050b9e1/15083c54-363f-431e-bb59-b71f03f3ff11")
 		(sheetname "/Audio/Audio output/")
@@ -3327,7 +3340,7 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R"
+		(property "Value" "10u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "be21f3ba-6c51-4f39-a450-655920c96cee")
@@ -3365,6 +3378,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c987b4aa-d91f-461b-b6fa-38746b224f3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d23ca20-3892-45c3-9c2f-09a4de03bb69")
 			(effects
 				(font
 					(size 1 1)
@@ -3874,6 +3900,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "97199e2d-e7d5-4266-81b5-23ba30012e45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21120"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb5572d0-2d28-4ce4-bd27-0c332f9940e6")
 			(effects
 				(font
 					(size 1 1)
@@ -4541,6 +4580,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c6fed0cf-cb43-4af8-939d-08c485a3b6a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90efa671-c677-4549-964d-9410e25e8591")
 			(effects
 				(font
 					(size 1 1)
@@ -5782,7 +5834,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 16V"
+		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a7291aee-6ddc-467c-a777-f18238e6efc9")
@@ -5827,7 +5879,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C440198"
+		(property "JLCPCB Part #" "C96446"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5994,6 +6046,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c1842ed1-c91d-4cbf-bde9-bcc9384bfe38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1613"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b3b1af7-ed53-44d4-8958-91f3baa5414c")
 			(effects
 				(font
 					(size 1 1)
@@ -7474,6 +7539,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21f1b0b6-97ab-483f-b30b-69e66c2cfb7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085/7a303694-709a-4597-9dba-63685211ad74")
 		(sheetname "/Audio/Audio Input/")
@@ -7938,7 +8016,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "dfec11fe-b350-4c05-9f07-e256777d4e2e")
@@ -9935,7 +10013,7 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R"
+		(property "Value" "10u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "6e10cab8-2aad-4306-8828-95d4d263df7d")
@@ -9973,6 +10051,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b12e83e5-b218-4496-b940-7e8f970c3dcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09506dda-b9a5-4613-bbcf-6031ce12f068")
 			(effects
 				(font
 					(size 1 1)
@@ -10581,6 +10672,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cb883ebc-76ff-447b-a914-33ee9ce2f203")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21120"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fdfd024-0816-44a7-9a84-f742805d0453")
 			(effects
 				(font
 					(size 1 1)
@@ -11518,7 +11622,7 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R"
+		(property "Value" "10u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "fc45c9c5-3ee4-465b-89f2-68af912974e5")
@@ -11556,6 +11660,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a21b9a4e-565e-486a-9ea0-2dde80531112")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b6e4b60-03d4-4448-906e-0cec11bf15f6")
 			(effects
 				(font
 					(size 1 1)
@@ -12761,6 +12878,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C307500"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "299e5125-2f2c-46f5-b0bb-fbb7557be075")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085/b1ad8aa8-d8da-4472-ad85-0807084b1eb4")
 		(sheetname "/Audio/Audio Input/")
@@ -12915,6 +13045,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "10efee2f-794b-4e8a-8ab8-5cb9e6a6e37f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21120"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a9d995b-31f4-4649-8dcd-8cf86f230099")
 			(effects
 				(font
 					(size 1 1)
@@ -14418,7 +14561,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "caccf907-92b8-4452-a045-e3285f8dc09d")
@@ -14463,7 +14606,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C440198"
+		(property "JLCPCB Part #" "C96446"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15376,7 +15519,7 @@
 				)
 			)
 		)
-		(property "Value" "22u 16V"
+		(property "Value" "22u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "fcbb269a-b923-4201-bb5e-6b0eb1bfcdbb")
@@ -17944,6 +18087,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d61418a8-4a4e-48b9-9574-f0d009403375")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/04600047-0277-4d80-a3e7-bbd76050b9e1/b4ae2797-831b-40ac-ab05-246beb03d754")
 		(sheetname "/Audio/Audio output/")
@@ -18150,7 +18306,7 @@
 				)
 			)
 		)
-		(property "Value" "100n 25V"
+		(property "Value" "100n"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ab7bba70-33bf-45fc-8c24-b95b4fe48e79")
@@ -18324,7 +18480,7 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R"
+		(property "Value" "10u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "b2fbe7ba-3709-4518-a563-dd9eb8d107dd")
@@ -18362,6 +18518,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f6972041-28e9-4095-b3ad-c794c6aadc09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb22d750-9edb-49e7-82b0-820beda986e3")
 			(effects
 				(font
 					(size 1 1)
@@ -20641,7 +20810,7 @@
 				)
 			)
 		)
-		(property "Value" "100n 25V"
+		(property "Value" "100n"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "82c72b15-3176-4d53-9587-53cde41ad3e5")
@@ -20853,6 +21022,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5fa17ad4-3ee0-46f8-a5ba-575554587023")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1625600"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e23bd722-8b58-4890-b895-9bd97e3443d7")
 			(effects
 				(font
 					(size 1 1)
@@ -21137,6 +21319,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8cf7d6ba-e51b-4c82-9722-3085448b5f19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1625600"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf0c9540-58a5-49ce-b134-aa478233a1c5")
 			(effects
 				(font
 					(size 1 1)
@@ -22072,7 +22267,7 @@
 				)
 			)
 		)
-		(property "Value" "100n 25V"
+		(property "Value" "100n"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "27c9ae03-fbe1-46d6-bc45-a52d9351908f")
@@ -22291,6 +22486,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C21120"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d697247-f0a5-44fd-b40e-1b09d11527ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085/5428c9be-ab60-483b-b2a2-33ffa65a4bcb")
 		(sheetname "/Audio/Audio Input/")
@@ -22443,6 +22651,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "54a5e890-3b7f-4556-aff2-5d19fd9ec252")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C307500"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "702f7975-2d22-4507-863e-eb93abbbef10")
 			(effects
 				(font
 					(size 1 1)
@@ -22604,6 +22825,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b4e22590-79b8-4251-89c8-968c717cc663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "614ddb06-d5bf-47ab-9970-54836bdbdb36")
 			(effects
 				(font
 					(size 1 1)
@@ -23120,6 +23354,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d06af2f7-c997-4bbf-b051-f3c42e953408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/04600047-0277-4d80-a3e7-bbd76050b9e1/277dabfd-0351-40aa-b55d-ff70bf3bd02b")
 		(sheetname "/Audio/Audio output/")
@@ -23293,7 +23540,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085/fd8e625a-716e-4c0a-9d05-27157b371acd")
+		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085/9d35e922-abde-49c4-822e-0f957bc0928e")
 		(sheetname "/Audio/Audio Input/")
 		(sheetfile "audio_input.kicad_sch")
 		(units
@@ -24050,7 +24297,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10u"
 			(at 0 1.679999 0)
 			(layer "F.Fab")
 			(uuid "9e6bf445-b71a-471a-b997-69398c4780c0")
@@ -25535,6 +25782,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed840430-8aeb-4c7b-9389-2cf9b5ccfdd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085/e0076830-1475-4673-bb03-882f59d39c8c")
 		(sheetname "/Audio/Audio Input/")
@@ -25825,7 +26085,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 25V"
+		(property "Value" "10u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "9e0d2116-4c54-4e49-a770-b67af462bbe3")
@@ -27081,6 +27341,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1cf34c26-0dc2-4942-89dd-cdd6099c66e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3324489-0b36-4532-aed3-42b845dad30d")
 			(effects
 				(font
 					(size 1 1)
@@ -28740,7 +29013,7 @@
 				)
 			)
 		)
-		(property "Value" "22u 16V"
+		(property "Value" "22u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "70446e18-2626-435b-a50a-682d13bad613")
@@ -29307,6 +29580,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47d12fb3-7ed7-40c4-912c-5e0099d1f1ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/e09b8b5e-acd1-40e6-8c3b-a84c82dd8085/9d66d4eb-d67e-4465-913d-02c99643d9f0")
 		(sheetname "/Audio/Audio Input/")
@@ -29421,7 +29707,7 @@
 				)
 			)
 		)
-		(property "Value" "22u 16V"
+		(property "Value" "22u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "5f9a8487-f470-45fd-bcf4-65db2c569bea")
@@ -30424,6 +30710,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C16780"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee1b705c-54bc-41ae-87e1-be7664029c30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7cbcd184-cb16-47ad-9dd6-ac92a6b5127c/dce01622-d691-4ec7-8d90-76763bdbf727")
 		(sheetname "/Audio/")
@@ -30540,7 +30839,7 @@
 				)
 			)
 		)
-		(property "Value" "22u 16V"
+		(property "Value" "22u"
 			(at 0 1.679999 90)
 			(layer "F.Fab")
 			(uuid "442b2956-0110-42f4-b98b-a9e8e8ba4003")
@@ -30842,6 +31141,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7e053b2c-ea99-4e0d-8ac6-89b39d372bff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C437459"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc83c9aa-1286-4c3a-a5a0-9409491a8b1d")
 			(effects
 				(font
 					(size 1 1)
