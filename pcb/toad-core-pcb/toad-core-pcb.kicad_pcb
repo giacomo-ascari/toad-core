@@ -143,11 +143,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "production/")
+			(outputdirectory "../plots/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
