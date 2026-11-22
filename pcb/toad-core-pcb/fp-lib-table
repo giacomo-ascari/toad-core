@@ -5,4 +5,5 @@
 	(lib (name "ld2980abm50tr") (type "KiCad") (uri "${KIPRJMOD}/../components-lib/LIB_LD2980ABM50TR/LD2980ABM50TR/KiCad") (options "") (descr ""))
 	(lib (name "tps63070rnmt") (type "KiCad") (uri "${KIPRJMOD}/../components-lib/LIB_TPS63070RNMT/TPS63070RNMT/KiCad") (options "") (descr ""))
 	(lib (name "Utils") (type "KiCad") (uri "${KIPRJMOD}/../components-lib/utils/Utils.pretty") (options "") (descr ""))
+	(lib (name "user-lib-toad-core") (type "KiCad") (uri "${KIPRJMOD}/../user-lib-toad-core/user-lib-toad-core.pretty") (options "") (descr ""))
 )
